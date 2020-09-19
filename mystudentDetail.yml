@@ -1,0 +1,19 @@
+---
+- mystudentDeatils: 
+     - name: ravi
+       phono:  818181818181
+       emailid: ravi@gmail.com
+       address: hyd
+
+
+     - name: durga
+       phono:  717171717171
+       emailid: durga@gmail.com
+       address: hyd
+
+     - name: pranay
+       phono: 6161616161
+       emailid: pranay@gmail.com
+       address: hyd
+
+    
