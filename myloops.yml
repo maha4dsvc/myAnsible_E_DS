@@ -4,7 +4,7 @@
   tasks: 
   - name: install git, tree and wget
     apt:
-      name: "{{item }}"
+      name: "{{ item }}"
       state: present
     loop:
       - git
