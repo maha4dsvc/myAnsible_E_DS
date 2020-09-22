@@ -2,18 +2,12 @@
 - hosts: all
   become: yes
   tasks: 
-  - name: install git
+  - name: install git, tree and wget
     apt:
-      name: git
+      name: "{ item }"
       state: present
+    loop:
+      - git
+      - tree
+      - wget
 
-  - name: install tree
-    apt:
-      name: tree
-      state: present
-
-
-  - name: install wget 
-    apt:
-      name: wget
-      state: present
