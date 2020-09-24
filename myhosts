@@ -17,3 +17,10 @@
 
 [redhatservers]
 172.31.7.41
+
+
+
+
+[webservers:vars]
+mywebserveronUbuntu=apache2
+mywebserveronRedhat=httpd
