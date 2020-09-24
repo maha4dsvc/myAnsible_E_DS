@@ -20,7 +20,3 @@
 
 
 
-
-[webservers:vars]
-mywebserveronUbuntu=apache2
-mywebserveronRedhat=httpd

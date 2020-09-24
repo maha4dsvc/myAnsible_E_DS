@@ -1,0 +1,4 @@
+---
+key: value
+mywebserveronUbuntu: apache2
+mywebserveronRedhat: httpd
