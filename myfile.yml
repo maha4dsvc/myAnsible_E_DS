@@ -1,5 +1,5 @@
 ---
-- name: create a file on mu ansible node side
+- name: create a file on my ansible node side
   file:
-    path:  /home/ubuntu/mytestfile.txt
+    path: /home/maha/mytestfile.txt
     state: touch
