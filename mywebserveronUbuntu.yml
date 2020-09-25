@@ -8,12 +8,12 @@
      name: apache2
      state: present
 
-  - name: restart webserver
+  - name: start webserver
     service:
       name: apache2
-      state: restarted
+      state: started
 
-      
+
 
 
 
