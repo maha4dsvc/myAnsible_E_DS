@@ -9,3 +9,6 @@
   - name:   display my var1
     debug:
       msg: "{{var1}}"
+      
+  - name: execute hostname linux command 
+    command:  hostname -f
