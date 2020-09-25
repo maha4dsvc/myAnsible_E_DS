@@ -7,11 +7,11 @@
     apt:
      name: apache2
      state: present
-     
+
   - name: restart webserver
     service:
       name: apache2
-      state: restart
+      state: restarted
 
 
 
