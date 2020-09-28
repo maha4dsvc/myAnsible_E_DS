@@ -16,12 +16,15 @@
     template:
       src: index.j2
       dest: /var/www/html/index.html
-  - name: i want to restart my apache2 webserver
+    notify: restartwebserver
+  
+  handlers:
+  - name: restartwebserver
     service:
       name: apache2
       state: restarted
 
-    
+  
 
 
 
