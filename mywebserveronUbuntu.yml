@@ -1,6 +1,6 @@
 ---
 - hosts: 172.31.35.124
-  become:
+  become: yes
   tasks:
   - include_tasks: myfile.yml
   - name: install webservers
