@@ -1,2 +1,5 @@
 ---
 # tasks file for mytom8onubuntu16role
+- include_tasks: myjava.yml
+- include_tasks: myusergroup.yml
+- 
